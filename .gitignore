@@ -9,3 +9,5 @@ ENV/
 #docs
 docs/
 processed/
+ground_truth_dataset.jsonl
+/Users/vinnychu/Code/OpenAI/openAIAPITest/eval_results.json

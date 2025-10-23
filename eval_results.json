@@ -1,0 +1,154 @@
+{
+  "summary": {
+    "total_questions": 15,
+    "evaluated": 15,
+    "errors": 0,
+    "exact_match_rate": 0.0,
+    "average_llm_score": 4.666666666666667,
+    "average_latency": 1.7647027969360352,
+    "score_distribution": {
+      "5": 10,
+      "4": 5,
+      "3": 0,
+      "2": 0,
+      "1": 0
+    }
+  },
+  "detailed_results": [
+    {
+      "question": "What fumehood are we using in the cleanroom?",
+      "ideal": "Supreme Air Series Fume Hood, Model HOM-1107, manufactured by Kewaunee Scientific Corporation",
+      "generated": "The fume hood used in the cleanroom is the Supreme Air Series Fume Hood, Model HOM-1107, manufactured by Kewaunee Scientific Corporation. It is designed to contain harmful contaminants and vent them out of the work area for safety.",
+      "latency": 2.9463701248168945,
+      "exact_match": false,
+      "llm_score": 4,
+      "llm_reasoning": "The generated answer contains the correct information about the fume hood, including its model and manufacturer. However, it adds additional details about the design and function of the fume hood, which, while informative, makes it slightly less concise than the expected answer."
+    },
+    {
+      "question": "What materials can be etched with RIE?",
+      "ideal": "RIE can etch dielectrics, silicon-based materials (Si, SiO₂, Si₃N₄), II-V materials (GaAs), sputtered metals, and polymers",
+      "generated": "RIE can etch a variety of materials including dielectrics, silicon-based materials, II-V materials, and certain metals such as Si, SiO₂, Si₃N₄, GaAs, and polymers, depending on the gas chemistry and plasma conditions used.",
+      "latency": 2.636255979537964,
+      "exact_match": false,
+      "llm_score": 4,
+      "llm_reasoning": "The generated answer contains the correct information about the materials that can be etched with RIE, including dielectrics, silicon-based materials, II-V materials, and polymers. However, it lacks the explicit mention of sputtered metals, which is a key point in the ground truth. The answer is clear and not overly verbose, making it concise."
+    },
+    {
+      "question": "What etch gases should I use for silicon?",
+      "ideal": "SF₆ or CF₄",
+      "generated": "For etching silicon, you should use fluorine-based gases such as SF₆ or CF₄. These gases effectively react with silicon to facilitate the etching process.",
+      "latency": 1.5436549186706543,
+      "exact_match": false,
+      "llm_score": 5,
+      "llm_reasoning": "The generated answer correctly identifies SF₆ and CF₄ as appropriate etch gases for silicon, matching the expected answer. It also provides additional context by mentioning that these gases are fluorine-based and effectively react with silicon, enhancing the completeness without sacrificing conciseness."
+    },
+    {
+      "question": "What etch gases should I use for SiO₂?",
+      "ideal": "CHF₃ or CF₄/O₂",
+      "generated": "For etching SiO₂, you should use fluorine-based gases such as CHF₃ or a mixture of CF₄ and O₂. These gases effectively react with silicon dioxide to facilitate the etching process.",
+      "latency": 1.2356879711151123,
+      "exact_match": false,
+      "llm_score": 5,
+      "llm_reasoning": "The generated answer correctly identifies the etch gases for SiO₂ as CHF₃ and CF₄/O₂, aligning perfectly with the ground truth. It also provides additional context about the effectiveness of these gases in the etching process without being overly verbose."
+    },
+    {
+      "question": "What are the key parameters in a standard RIE process?",
+      "ideal": "RF power, chamber pressure, gas type and flow rates, and etch time",
+      "generated": "The key parameters in a standard RIE process include RF power, chamber pressure, gas type and its flow rates, and etch time, all of which influence the etching efficiency and uniformity. Adjusting these parameters allows for optimization of the etching process for specific materials and applications.",
+      "latency": 1.9916839599609375,
+      "exact_match": false,
+      "llm_score": 5,
+      "llm_reasoning": "The generated answer accurately lists all key parameters from the ground truth, including RF power, chamber pressure, gas type and flow rates, and etch time. Additionally, it provides context on how these parameters affect the etching process, enhancing the completeness without being overly verbose."
+    },
+    {
+      "question": "How do I determine etch rate?",
+      "ideal": "Measure initial and final thickness before and after etching using profilometry, ellipsometry, or SEM, then calculate: Etch Rate = (Initial - Final Thickness) / Time",
+      "generated": "To determine the etch rate, measure the thickness of the material before and after etching using profilometry, ellipsometry, or SEM, and calculate it using the formula: Etch Rate = (Initial Thickness - Final Thickness) / Time.",
+      "latency": 1.540560245513916,
+      "exact_match": false,
+      "llm_score": 5,
+      "llm_reasoning": "The generated answer contains all the correct information regarding how to determine the etch rate, including the methods for measuring thickness and the formula for calculation. It is also clear and concise, effectively communicating the necessary steps without unnecessary verbosity."
+    },
+    {
+      "question": "How often should I clean or maintain the RIE chamber?",
+      "ideal": "Weekly or following heavy polymer-forming processes",
+      "generated": "The RIE chamber should be cleaned weekly or after heavy polymer-forming processes, using dummy wafers or O₂ plasma, and electrodes and gaskets should be inspected regularly.",
+      "latency": 1.3416330814361572,
+      "exact_match": false,
+      "llm_score": 5,
+      "llm_reasoning": "The generated answer accurately reflects the frequency of cleaning and maintenance for the RIE chamber as stated in the ground truth. It also includes additional relevant details about cleaning methods and inspection of components, enhancing its completeness without sacrificing clarity."
+    },
+    {
+      "question": "What causes non-uniform etching across the wafer?",
+      "ideal": "Poor gas distribution, inconsistent electrode contact or RF power distribution, and chamber loading effects",
+      "generated": "Non-uniform etching across the wafer can be caused by poor gas distribution, inconsistent electrode contact or RF power distribution, and chamber loading effects, which disrupt the uniformity of plasma and etching conditions.",
+      "latency": 1.8435461521148682,
+      "exact_match": false,
+      "llm_score": 5,
+      "llm_reasoning": "The generated answer accurately reflects the key points from the ground truth, including poor gas distribution, inconsistent electrode contact or RF power distribution, and chamber loading effects. It also provides a clear explanation of how these factors disrupt the uniformity of plasma and etching conditions without being overly verbose."
+    },
+    {
+      "question": "What is the minimum distance apparatus must be placed from the sash opening in the fume hood?",
+      "ideal": "6 inches behind the protective air barrier",
+      "generated": "Apparatus must be placed at least six inches behind the protective air barrier of the fume hood to maximize safety and containment of contaminants.",
+      "latency": 0.8998348712921143,
+      "exact_match": false,
+      "llm_score": 5,
+      "llm_reasoning": "The generated answer correctly states the minimum distance of six inches behind the protective air barrier, which aligns with the ground truth. It also provides additional context about maximizing safety and containment, enhancing its completeness without being overly verbose."
+    },
+    {
+      "question": "What is the typical air containment velocity in the fume hood?",
+      "ideal": "100 feet per minute",
+      "generated": "The typical air containment velocity in the fume hood is 100 feet per minute. This velocity is crucial for maintaining effective airflow and preventing the escape of contaminants.",
+      "latency": 1.031785011291504,
+      "exact_match": false,
+      "llm_score": 4,
+      "llm_reasoning": "The generated answer contains the correct information regarding the typical air containment velocity in the fume hood. However, while it provides additional context about the importance of this velocity, it could be considered slightly verbose, which affects its conciseness."
+    },
+    {
+      "question": "How tall should metal legs be for large equipment in the fume hood?",
+      "ideal": "2 to 3 inches",
+      "generated": "Metal legs for large equipment in the fume hood should be 2-3 inches tall to ensure proper airflow circulation underneath and prevent air flow obstruction.",
+      "latency": 2.5346250534057617,
+      "exact_match": false,
+      "llm_score": 5,
+      "llm_reasoning": "The generated answer accurately states the required height of the metal legs as 2-3 inches, which is correct. It also includes additional context about ensuring proper airflow circulation, which enhances the completeness of the response without being overly verbose."
+    },
+    {
+      "question": "How often should fume hood velocity be checked at minimum?",
+      "ideal": "At least annually",
+      "generated": "Fume hood velocity should be checked at least once a year, and additionally after any modifications to the laboratory ventilation system or factors affecting exhaust capability.",
+      "latency": 1.123044729232788,
+      "exact_match": false,
+      "llm_score": 4,
+      "llm_reasoning": "The generated answer contains the correct information regarding the minimum frequency of checking fume hood velocity, stating 'at least once a year.' It also adds relevant information about checking after modifications, which enhances completeness. However, it could be considered slightly verbose, as the additional details may not be necessary for the minimum frequency requirement."
+    },
+    {
+      "question": "Why must large equipment in the fume hood be placed on legs?",
+      "ideal": "To facilitate airflow circulation underneath and prevent air flow obstruction, reducing reverse flows and dead spots",
+      "generated": "Large equipment in the fume hood must be placed on legs to facilitate air circulation underneath, which helps reduce reverse air flows and dead spots that could allow contaminants to escape from the hood. This placement ensures optimal airflow and enhances safety during laboratory work.",
+      "latency": 2.7658209800720215,
+      "exact_match": false,
+      "llm_score": 5,
+      "llm_reasoning": "The generated answer accurately reflects the key points from the ground truth, explaining the necessity of placing large equipment on legs for airflow circulation and safety. It is also clear and concise, effectively communicating the importance of this practice without unnecessary verbosity."
+    },
+    {
+      "question": "What is RIE classified as?",
+      "ideal": "Dry etching system using reactive plasma",
+      "generated": "RIE is classified as a dry etching system used in microfabrication, particularly in the semiconductor industry, for material removal from substrates using chemically reactive plasma. It is essential for precise patterning and etching of various materials in the fabrication of electronic devices.",
+      "latency": 1.8837027549743652,
+      "exact_match": false,
+      "llm_score": 4,
+      "llm_reasoning": "The generated answer correctly identifies RIE as a dry etching system and provides additional context about its application in microfabrication and the semiconductor industry. However, it is slightly more verbose than necessary, which detracts from its conciseness."
+    },
+    {
+      "question": "What is the maximum wattage for light bulbs in the fume hood?",
+      "ideal": "150 watts",
+      "generated": "The maximum wattage for light bulbs in the fume hood is 150 watts for all bulb types.",
+      "latency": 1.1523361206054688,
+      "exact_match": false,
+      "llm_score": 5,
+      "llm_reasoning": "The generated answer contains the correct information regarding the maximum wattage for light bulbs in the fume hood, which is 150 watts. It also provides additional clarity by specifying that this applies to all bulb types, enhancing completeness without being overly verbose."
+    }
+  ]
+}
