@@ -38,3 +38,7 @@ if __name__ == '__main__':
     print("Starting VR Q&A API Server...")
     print("Endpoint: http://localhost:5000/query")
     app.run(host='0.0.0.0', port=5000, debug=True)
+
+# Jetson linux setup
+# APi calls form the VR
+# figure out university networking
