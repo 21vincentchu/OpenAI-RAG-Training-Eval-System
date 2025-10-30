@@ -115,7 +115,7 @@ What is the maintenance schedule?
 
 Run batch query:
 ```bash
-python chroma_vector_store.py questions.txt
+python chroma_vector_store.py test_questions1.txt
 ```
 
 Results are saved to `chroma_query_results.csv`.
