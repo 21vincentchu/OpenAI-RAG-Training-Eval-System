@@ -1,0 +1,246 @@
+# SEMICONDUCTOR LABORATORY EQUIPMENT REFERENCE GUIDE
+
+## INTRODUCTION
+This document provides comprehensive information about all equipment used in our semiconductor laboratory. All equipment described in this document is actively used in our laboratory for research, fabrication, and educational purposes.
+
+## EQUIPMENT INVENTORY
+
+### 1. SUPREME AIR SERIES FUME HOOD (MODEL: HOM-1107)
+**Manufacturer**: Kewaunee Scientific Corporation
+**Location**: Main Laboratory Area
+**Primary Function**: Containment of harmful contaminates and venting them out of the work area
+
+**Key Features**:
+- Protective air barrier between user and harmful materials
+- Directional air flow carries contaminates away toward rear of hood
+- Adjustable baffle configurations: fixed, internally adjustable, or internal single point adjustable
+- Multiple baffle positions for different applications (normal operation, large hot plates, heavy gases)
+
+**Operating Procedures**:
+- Verify exhaust fan is operating before use
+- Never put head into hood while contaminants are being generated
+- Set up apparatus at least 6" back from sash opening
+- Keep sash lowered to minimum opening required during use
+- Do not place electrical receptacles in hood when flammables are present
+- Do not obstruct slots in rear baffle
+- Place large equipment on legs 2-3" high for proper airflow
+
+**Maintenance Requirements**:
+- Check hood for proper velocity at least annually
+- Clean glass panels, sash glass, and work top regularly
+- Check sash cables for damage or wear
+- Apply oil to bearings on sash pulleys periodically
+- For hoods with auxiliary air chambers, replace filters as needed
+
+**Safety Notes**:
+- Do not use Perchloric Acid in hood not designed for it
+- Use safety shield for possible small explosions
+- Wear gloves and protective clothing when skin contact with airborne contaminates is a hazard
+- Test performance of hood at least once every six months
+
+### 2. PROVIS AX70 UNIVERSAL PHOTO SYSTEM
+**Manufacturer**: Olympus
+**Location**: Microscopy Room
+**Primary Function**: Fully automatic photomicrography for scientific applications
+
+**Key Features**:
+- UIS optics with super widefield observation (F.N. 26.5)
+- Auto focus function for brightfield, darkfield, fluorescence, and Nomarski DIC
+- Automatic light intensity adjustment
+- Flexible moving spot measurement
+- Zoom magnification system (1x-2x)
+- Super FL Auto mode for fluorescence photomicrography
+- Multiple microscopic techniques supported
+
+**Technical Specifications**:
+- Microscope stand: Y-shape frame with built-in transmitted/incident light vertical illuminator
+- Optical system: UIS (infinity-corrected/compensation-free)
+- Illumination: 12V100W halogen (transmitted), Hg100W or Xe75W (incident)
+- Maximum field number: 26.5 (super widefield)
+- Focusing: Vertical stage movement, minimum fine focus adjustment: 1μm
+
+**Applications**:
+- Scientific photomicrography
+- Fluorescence microscopy
+- FISH (Fluorescence In Situ Hybridization)
+- Video documentation
+- Multi-stained fluorescing specimen examination
+
+**Available Accessories**:
+- AX-REXBA for balanced fluorescence adjustment
+- Optical center adjuster (AX-OCA)
+- Multi-port head (U-MPH)
+- Various video camera adapters
+
+### 3. PIONEER BALANCES
+**Manufacturer**: Ohaus Corporation
+**Location**: Measurement Station
+**Primary Function**: Precise weighing for laboratory applications
+
+**Models Available**:
+- Analytical balances (0.0001g and 0.001g models)
+- Precision balances (0.01g and 0.1g models)
+
+**Key Features**:
+- Digital display with 0.1°C resolution
+- HOT TOP warning system for safety
+- Raised display to guide spilled liquids away from electronics
+- Optional temperature probe for precise control
+- Slow speed stirring capability
+- Multiple units of measure
+
+**Operating Instructions**:
+- Level balance on firm, steady surface
+- Avoid locations with excessive air current, vibrations, or heat sources
+- Calibrate after 60-minute warm-up time
+- For weighing: press 0/T to zero, place objects on pan
+- For counting: establish Average Piece Weight (APW) first
+- For percent mode: establish reference weight first
+
+**Maintenance**:
+- Clean with mild detergent
+- Avoid using harsh chemicals on display or controls
+- Recalibrate periodically or after moving
+
+### 4. KARL SUSS MA6/BA6 MASK ALIGNER
+**Manufacturer**: KARL SUSS
+**Model**: MASK ALIGNER MA6/BA6
+**Location**: Nanofab, Clean Room
+**Primary Function**: Alignment and exposure device for semiconductor and microsystems technology
+
+**Technical Specifications**:
+- UV broadband (250nm-450nm), I-line (365nm) and G-line (436nm) wavelengths available
+- Exposure methods: flood, proximity, soft/hard contacts, low vacuum and vacuum contacts
+- Mask size: 2.5"x2.5", 4"x4", 5"x5", and 8"x8"
+- Wafer size for Top-Side Alignment: up to 6" diameter (small samples, 2", 3", 4", and 6")
+- Wafer size for Bottom-Side Alignment: 3" and 4" chucks
+- Maximum wafer thickness: 3mm
+
+**Operating Procedures**:
+- Power on with compressed air (5 bar), nitrogen (1 bar), and vacuum (0.8 bar)
+- Ignite exposure lamp using Constant Intensity Controller
+- Select between mask align (MA6) or bond alignment (BA6) mode
+- Load mask, place substrate, and align as needed
+- Select exposure mode and parameters
+
+**Safety Precautions**:
+- Watch out for microscope movement at all times
+- In case of lamp explosion, immediately leave room to avoid mercury fumes
+- Nitrogen failure for longer than 5 minutes will turn off exposure lamp automatically
+
+**Maintenance Requirements**:
+- Regular cleaning of mask holder and chuck
+- Check air, nitrogen, and vacuum supplies before each use
+
+### 5. ISOTEMP HOTPLATES, STIRRERS, AND STIRRING HOTPLATES
+**Manufacturer**: Fisherbrand
+**Series Available**: Isotemp, Isotemp Advanced, Isotemp RT Advanced
+**Location**: Wet Chemistry Area
+**Primary Function**: Precise temperature control and stirring for laboratory applications
+
+**Key Features**:
+- Multiple size options: small (108mm x 108mm), medium (184mm x 184mm), large (260mm x 260mm)
+- Top plate choices in ceramic or aluminum
+- Digital temperature and RPM display
+- Temperature adjustable in 1-degree increments
+- HOT TOP warning system when heating surface is above 50°C
+- Automatic over-temperature protection
+- Slow-speed stirring capability
+
+**Technical Specifications**:
+- Maximum surface temperature: up to 540°C (ceramic), 300°C (aluminum)
+- Stirring range: 50-1500 rpm
+- Stirring capacity: 1-10L depending on model
+- Voltage: 230V 50/60Hz
+
+**Available Accessories**:
+- Splash guard protection shields
+- Temperature probes (PT100, PT1000, Hastelloy)
+- Support rods, clamps, and clamp holders
+
+**Safety Features**:
+- Raised display protects electronics from spills
+- HOT TOP warning indicator remains on while surface is hot even when powered off
+- Over-temperature protection prevents damage
+
+### 6. BREWER SCIENCE CEE 200X SPIN COATER
+**Manufacturer**: Brewer Science
+**Model**: Cee 200X
+**Location**: Photolithography Area
+**Primary Function**: Precision spin coating for semiconductor and microsystems applications
+
+**Technical Specifications**:
+- Dimensions: 13.25" W × 19" D × 12" H
+- Machine weight: 40 lb (18.14 kg)
+- Spin speed: 0 to 6,000 rpm (12,000 rpm option; 0 to 16,000 rpm option available)
+- Spin speed acceleration: 0 to 30,000 rpm/s unloaded
+- Substrate sizes: <1 cm to 200 mm round; 7" x 7" square
+
+**Key Features**:
+- PC-controlled with touch screen interface
+- 250,000+ process recipe programs capacity
+- Teflon spin bowl for material compatibility
+- USB/ethernet connectivity for uploading/downloading process parameters
+- Multiple dispense capabilities
+- Programmable vacuum and nitrogen purge
+
+**Programming Capabilities**:
+- Recipe creation with velocity, ramp, time, dispense controls
+- Live Update feature to modify running processes
+- Diagnostic capabilities for maintenance
+- Password protection for different user levels
+
+**Utility Requirements**:
+- Voltage: 100-240 VAC, 50/60 Hz
+- Vacuum: 25" Hg
+- Nitrogen or CDA: 70 psi
+- Exhaust: 50 cfm at 0.2" water
+
+**Maintenance Requirements**:
+- Regular emptying of vacuum liquid trap
+- Cleaning of spin chuck and bowl after use
+- Periodic check of bearings and belt tension
+
+## GENERAL LABORATORY SAFETY GUIDELINES
+
+1. Always wear appropriate Personal Protective Equipment (PPE) including safety glasses and gloves when handling chemicals or operating equipment.
+
+2. Familiarize yourself with equipment manuals before operation.
+
+3. Know the location of emergency shut-off switches, fire extinguishers, and eyewash stations.
+
+4. Report any equipment malfunctions or safety concerns immediately to laboratory management.
+
+5. Maintain a clean work environment, especially when working with photoresists or chemicals.
+
+6. Follow proper waste disposal procedures for all materials.
+
+7. Never leave running equipment unattended unless specifically designed for unattended operation.
+
+8. All users must be trained and certified before operating specialized equipment.
+
+## EQUIPMENT CONTACT INFORMATION
+
+For maintenance, repairs, or questions about specific equipment, contact:
+
+- **Fume Hood (Supreme Air Series)**: Kewaunee Scientific Corporation
+  Phone: (704) 873-7202
+  Email: marketing@kewaunee.com
+
+- **Microscope (Provis AX70)**: Olympus Technical Support
+
+- **Mask Aligner (Karl SUSS MA6/BA6)**: nanofab_litho@nist.gov
+
+- **Spin Coater (CEE 200X)**: Brewer Science Customer Support
+
+- **Laboratory Manager**: Dr. Wang Fang (University of Missouri Columbia)
+  Engineering Computer Science Department
+
+## DOCUMENT REVISION HISTORY
+
+- Created: April 10, 2025
+- Last Updated: April 10, 2025
+- Updated by: Laboratory Administration
+
+---
+This document serves as the official reference guide for all equipment in the semiconductor laboratory at the University of Missouri Columbia under Professor Dr. Wang Fang's research project.

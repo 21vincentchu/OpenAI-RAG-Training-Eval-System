@@ -190,3 +190,16 @@ if __name__ == "__main__":
     # Legacy OpenAI vector store upload (optional)
     # upload_to_existing_vector_store()
     # print("Uploaded files to vector store")
+
+
+#todo
+'''
+ai should take in JSONL's as input
+return JSONL's as output
+parse through jsonL
+
+wait for edge device code from nick and integrate with that code
+after that, load up the code onto the jetsen
+
+
+'''

@@ -1,0 +1,15 @@
+{"question": "What fumehood are we using in the cleanroom?", "ideal": "Supreme Air Series Fume Hood, Model HOM-1107, manufactured by Kewaunee Scientific Corporation"}
+{"question": "What materials can be etched with RIE?", "ideal": "RIE can etch dielectrics, silicon-based materials (Si, SiO₂, Si₃N₄), II-V materials (GaAs), sputtered metals, and polymers"}
+{"question": "What etch gases should I use for silicon?", "ideal": "SF₆ or CF₄"}
+{"question": "What etch gases should I use for SiO₂?", "ideal": "CHF₃ or CF₄/O₂"}
+{"question": "What are the key parameters in a standard RIE process?", "ideal": "RF power, chamber pressure, gas type and flow rates, and etch time"}
+{"question": "How do I determine etch rate?", "ideal": "Measure initial and final thickness before and after etching using profilometry, ellipsometry, or SEM, then calculate: Etch Rate = (Initial - Final Thickness) / Time"}
+{"question": "How often should I clean or maintain the RIE chamber?", "ideal": "Weekly or following heavy polymer-forming processes"}
+{"question": "What causes non-uniform etching across the wafer?", "ideal": "Poor gas distribution, inconsistent electrode contact or RF power distribution, and chamber loading effects"}
+{"question": "What is the minimum distance apparatus must be placed from the sash opening in the fume hood?", "ideal": "6 inches behind the protective air barrier"}
+{"question": "What is the typical air containment velocity in the fume hood?", "ideal": "100 feet per minute"}
+{"question": "How tall should metal legs be for large equipment in the fume hood?", "ideal": "2 to 3 inches"}
+{"question": "How often should fume hood velocity be checked at minimum?", "ideal": "At least annually"}
+{"question": "Why must large equipment in the fume hood be placed on legs?", "ideal": "To facilitate airflow circulation underneath and prevent air flow obstruction, reducing reverse flows and dead spots"}
+{"question": "What is RIE classified as?", "ideal": "Dry etching system using reactive plasma"}
+{"question": "What is the maximum wattage for light bulbs in the fume hood?", "ideal": "150 watts"}

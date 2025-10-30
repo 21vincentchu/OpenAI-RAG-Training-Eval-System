@@ -1,0 +1,158 @@
+This document describes the operation, maintenance, and safety procedures for the Supreme Air Series Fume Hood, Model HOM-1107, which is actively used in our semiconductor lab.
+
+Comprehensive Technical Guide: Kewaunee Supreme Air Series Fume Hoods
+Fundamental Safety and Operational Procedures
+Critical Operational Guidelines
+Primary Operating Procedures
+Perchloric Acid Restrictions
+STRICTLY PROHIBITED: Using perchloric acid in non-specialized hoods
+Severe explosion hazard with organic materials
+Dedicated perchloric acid hoods required for such procedures
+Pre-Operational Verification
+Mandatory exhaust fan functionality check
+Verify sufficient air exhaust volume
+Confirm air flow integrity before each use
+Contaminate Handling Protocols
+Positioning Requirements:
+All apparatus minimum 6 inches from sash opening
+Place in recessed portion of work surface
+Absolute Prohibition:
+Never place head inside hood during contaminant generation
+Avoid rapid movements near hood
+Minimize personnel traffic around hood
+Equipment Placement Specifications
+Large Equipment Guidelines:
+Use 2-3 inch tall metal legs for large apparatus
+Ensures airflow circulation underneath
+Prevents air flow obstruction
+Surface Orientation:
+Large flat surfaces parallel to hood face
+Legs required to facilitate air movement
+Electrical and Ignition Safety
+Flammable Material Precautions:
+No electrical receptacles near flammable substances
+Mandatory safety shield for potential explosion risks
+Hood NOT designed for comprehensive explosion protection
+Protective Air Barrier Mechanics
+Air Flow Characteristics
+Pressure Zone Dynamics
+Air passing body creates low-pressure zone
+Extends approximately 4 inches into hood interior
+Turbulent area susceptible to contaminant infiltration
+Contaminant Containment Strategy
+Recommended Placement:
+Minimum 6 inches behind protective air barrier
+Maximize distance from hood face
+Air Velocity Parameters:
+Typical containment velocity: 100 feet per minute
+Easily disrupted air flow patterns
+Sash Management Protocols
+Opening Guidelines
+Minimal Required Opening
+Access only necessary work area
+Reduce exposure to external air disturbances
+Breathing Zone Protection:
+Lowered sash increases distance from contaminant escape zone
+Reduces susceptibility to room drafts
+Sash Position Considerations
+Horizontal Sash Requirements:
+All sashes must be in place during operations
+Removing sashes reduces air entry velocity
+Height Limitations:
+Respect marked safe sash height
+Do not override sash stop mechanism
+Baffle Configuration Systems
+Baffle Type Descriptions
+Configuration Options
+Fixed Baffle Configuration
+Optimized slot sizes for general use
+Predetermined air flow characteristics
+Internally Adjustable Baffles
+Manual upper/lower slot size adjustment
+Customizable air flow patterns
+Internal Single Point Adjustable
+Rotational damper mechanism
+Precise air flow control
+Baffle Position Strategies
+Position A (Standard Operation):
+Balanced air distribution
+Uniform lower and upper hood area flow
+Ideal for most standard laboratory procedures
+Position B (High-Temperature Scenarios):
+Enhanced upper exhaust volume
+Optimal for large hot plate use
+Manages rising thermal contaminants
+Position C (Dense Vapor Handling):
+Increased lower area air draw
+Specialized for heavy gases and sinking vapors
+Perchloric Acid Hood Specialized Procedures
+Unique Operational Requirements
+Dedicated Use Mandate
+Exclusive use for perchloric acid procedures
+Prevent cross-contamination risks
+Wash-Down Protocol
+Mandatory Water Wash Procedure:
+15-minute wash after each use
+End-of-day wash for continuous operation
+Preparation Steps:
+Clear work area of potentially damageable equipment
+Anticipate potential water dripping
+Exhaust System Management
+Wash-Down Specific Instructions:
+TURN OFF exhaust fan during water wash
+Prevent impeller wheel water damage
+Valve Location:
+Left front vertical fascia
+Potential separate duct activation switch
+Maintenance Specifics
+Weekly Interior Cleaning
+Water-based cleaning protocol
+Liner Preservation:
+Monitor inorganic acid interactions
+Potentially increased cleaning frequency
+Comprehensive Maintenance Guidelines
+Annual Inspection Checklist
+Velocity and Performance
+Professional technician assessment
+Comprehensive air flow testing
+Exhaust system functionality verification
+Component Inspection
+Sash Cable Evaluation
+Check for wear and fraying
+Immediate replacement if compromised
+Pulley Maintenance
+Lubricate sash pulley bearings
+Use minimal oil application
+Light Fixture Specifications
+Tube Replacement Guidelines:
+4/8-foot hoods: 3-foot tubes
+5/6/10-foot hoods: 4-foot tubes
+Wattage Limitations:
+Maximum 150 watts for all bulb types
+Specific access procedures for different light configurations
+Safety Verification Protocol
+Comprehensive Checklist
+ Correct hood type for specific procedure
+ Functional air flow monitoring
+ Appropriate baffle configuration
+ No unnecessary chemicals present
+ Equipment positioned correctly
+ Minimal sash opening maintained
+ Controlled laboratory traffic
+ Emergency equipment accessible
+ Personal protective equipment ready
+Critical Caution Notes
+Always consult chemical hygiene officer before maintenance
+Understand specific hazard interactions
+Follow manufacturer and institutional safety guidelines
+Manufacturer Contact Information
+Kewaunee Scientific Corporation
+
+Mailing Address: P.O. Box 1842, Statesville, NC 28687-1842
+Phone: (704) 873-7202
+Fax: (800) 932-3296
+Email: marketing@kewaunee.com
+Website: www.kewaunee.com
+Reference: HOM-1107 Manual, Original Copyright 2007
+
+IMPORTANT: This guide is for informational purposes. Always prioritize current safety protocols and manufacturer recommendations.
