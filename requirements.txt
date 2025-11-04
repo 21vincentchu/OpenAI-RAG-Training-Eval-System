@@ -14,6 +14,12 @@ unstructured[all-docs]>=0.10.0
 flask>=3.0.0
 flask-cors>=4.0.0
 
+# Streamlit UI
+streamlit>=1.28.0
+
+# WebSocket client (for metrics_client_v2.py)
+websockets>=12.0
+
 # Environment variables
 python-dotenv>=1.0.0
 

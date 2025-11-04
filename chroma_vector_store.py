@@ -189,8 +189,10 @@ def get_collection_info():
         print(f"Collection: {COLLECTION_NAME}")
         print(f"Document count: {count}")
         print(f"Storage location: {CHROMA_DIR}")
+        return {"name": COLLECTION_NAME, "count": count, "path": str(CHROMA_DIR)}
     except Exception as e:
         print(f"Collection not found: {e}")
+        raise e
 
 
 if __name__ == "__main__":
