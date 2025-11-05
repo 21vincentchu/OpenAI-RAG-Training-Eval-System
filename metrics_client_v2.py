@@ -149,6 +149,7 @@ async def run(
                 if dump_f:
                     dump_f.write(json.dumps(msg, ensure_ascii=False) + "\n")
                     dump_f.flush()
+                    
                 '''
                 AI Question Handling Integration
                 If the incoming message contains a "question" field, it's treated as a query
@@ -167,8 +168,19 @@ async def run(
                     # Call chroma vector store to answer the question
                     response = answer_question_json(msg)
                     print(f"[AI] Response: {response}")
-                    # Send the response back to the server
-                    await ws.send(json.dumps(response))
+
+                    # Validate JSON before sending
+                    try:
+                        # Test serialization to ensure valid JSON
+                        json_test = json.dumps(response)
+                        # Test deserialization to verify structure
+                        parsed = json.loads(json_test)
+                        print(f"[AI] JSON validation passed. Keys: {list(parsed.keys())}")
+                        # Send the response back to the server
+                        await ws.send(json_test)
+                    except (TypeError, ValueError) as e:
+                        print(f"[AI] ERROR: Invalid JSON response: {e}")
+                        print(f"[AI] Response type: {type(response)}, value: {response}")
                     continue
 
                 # Process different message types
