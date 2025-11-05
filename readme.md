@@ -101,6 +101,8 @@ This displays the collection name, document count, and storage location.
 **Single question:**
 ```bash
 python chroma_vector_store.py "What is the operating temperature range?"
+
+import the functions from vectorStore and then just call
 ```
 
 **Batch questions from file:**

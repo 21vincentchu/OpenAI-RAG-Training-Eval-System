@@ -1,6 +1,8 @@
 """
 Streamlit UI for OpenAI RAG Q&A System
 
+streamlit run app.py
+
 A simple web interface for querying your document collection using RAG.
 """
 
@@ -26,12 +28,12 @@ st.markdown("Ask questions about your documents and get AI-powered answers.")
 
 # Sidebar with system info
 with st.sidebar:
-    st.header("ℹ️ System Info")
+    st.header("System Info")
 
     # Try to get collection info
     try:
         info = get_collection_info()
-        st.success("✅ Connected to ChromaDB")
+        st.success("Connected to ChromaDB")
 
         # Count source documents
         from pathlib import Path
@@ -42,14 +44,14 @@ with st.sidebar:
         st.caption(f"{info.get('count', 'N/A')} chunks indexed")
         db_connected = True
     except Exception as e:
-        st.error("❌ ChromaDB not found")
+        st.error("ChromaDB not found")
         st.caption("Run `python Unstructured_data_pipeline.py` to process documents first.")
         db_connected = False
 
     st.divider()
 
     # Instructions
-    st.header("📖 How to Use")
+    st.header("How to Use")
     st.markdown("""
     1. Type your question in the text box
     2. Click "Search" or press Enter
@@ -134,9 +136,9 @@ if clear_button:
 # Process query
 if search_button or (question and st.session_state.get('auto_search', False)):
     if not question:
-        st.warning("⚠️ Please enter a question.")
+        st.warning("Please enter a question.")
     elif not db_connected:
-        st.error("❌ Cannot query: ChromaDB not found. Run the data pipeline first.")
+        st.error("Cannot query: ChromaDB not found. Run the data pipeline first.")
     else:
         try:
             # Query the RAG system (latency is measured internally)
@@ -150,7 +152,7 @@ if search_button or (question and st.session_state.get('auto_search', False)):
             st.metric("Response Time", f"{latency:.2f}s")
 
         except Exception as e:
-            st.error(f"❌ Error: {str(e)}")
+            st.error(f"Error: {str(e)}")
             st.caption("Make sure you've run the data pipeline and have documents in ChromaDB.")
 
 # Session state for query history (optional future feature)

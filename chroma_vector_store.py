@@ -179,6 +179,67 @@ def query_with_context(question: str) -> tuple[str, float]:
     latency = time.time() - start_time
     return response.choices[0].message.content, latency
 
+def answer_question_json(input_json: dict) -> dict:
+    """
+    Answer a question from JSON input and return JSON output.
+
+    Args:
+        input_json: Dictionary with structure:
+            {
+                "question": "Your question here"
+            }
+
+    Returns:
+        Dictionary with structure:
+            {
+                "timestamp": "2024-01-01T12:00:00",
+                "answer": "The generated answer"
+            }
+    """
+    from datetime import datetime
+    import time
+
+    try:
+        # Extract question from input JSON
+        question = input_json.get("question")
+        if not question:
+            return {
+                "timestamp": datetime.now().isoformat(),
+                "answer": "Error: No question provided"
+            }
+
+        # Get relevant context
+        results = search_vector_store(question, top_k=5)
+
+        # Build context from results
+        context = "\n\n".join([text for text, _, _ in results])
+
+        # Simplified prompt
+        prompt = f"Context:\n{context}\n\nQuestion: {question}\n\nAnswer in 1-2 sentences."
+
+        # Get response from OpenAI
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": "Answer concisely in 1-2 sentences."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.3
+        )
+
+        answer = response.choices[0].message.content
+
+        return {
+            "timestamp": datetime.now().isoformat(),
+            "answer": answer
+        }
+
+    except Exception as e:
+        return {
+            "timestamp": datetime.now().isoformat(),
+            "answer": f"Error: {str(e)}"
+        }
+
 
 def get_collection_info():
     """Get information about the ChromaDB collection."""

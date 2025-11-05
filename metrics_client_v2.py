@@ -16,6 +16,7 @@ import asyncio
 import json
 import argparse
 import websockets
+from chroma_vector_store import answer_question_json
 
 
 def summarize_gaze(gaze: dict) -> str:
@@ -123,6 +124,10 @@ async def run(
                     # Timeout or other error - stop waiting for acks
                     break
 
+
+            # ------------------ INTEGRATE CODE HERE --------------#
+            # it should receive a JSON and then call code in chroma vector store which takes in a json, answers the question using the vector store, and then returns it as a json
+
             # Main message receiving loop - runs continuously until connection closes
             while True:
                 try:
@@ -144,6 +149,27 @@ async def run(
                 if dump_f:
                     dump_f.write(json.dumps(msg, ensure_ascii=False) + "\n")
                     dump_f.flush()
+                '''
+                AI Question Handling Integration
+                If the incoming message contains a "question" field, it's treated as a query
+                for the AI-powered vector store. This allows end devices to ask questions
+                about documentation or system information stored in the ChromaDB vector store.
+                
+                Flow:
+                    1. Client/device sends JSON: {"question": "How do I reset my device?"}
+                    2. answer_question_json() queries the vector store for relevant context
+                    3. OpenAI API generates a concise answer based on the retrieved documents
+                    4. Response JSON is sent back: {"timestamp": "...", "answer": "..."}
+                '''
+        
+                if "question" in msg:
+                    print(f"[AI] Received question: {msg.get('question')}")
+                    # Call chroma vector store to answer the question
+                    response = answer_question_json(msg)
+                    print(f"[AI] Response: {response}")
+                    # Send the response back to the server
+                    await ws.send(json.dumps(response))
+                    continue
 
                 # Process different message types
                 t = msg.get("type")
