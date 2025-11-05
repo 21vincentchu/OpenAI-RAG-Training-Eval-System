@@ -50,6 +50,42 @@ with st.sidebar:
 
     st.divider()
 
+    # Document Import Section
+    st.header("Import Document")
+    uploaded_file = st.file_uploader(
+        "Upload a document",
+        type=['pdf', 'docx', 'txt', 'doc'],
+        help="Upload PDF, DOCX, or TXT files to add to your knowledge base"
+    )
+
+    if uploaded_file is not None:
+        from document_importer import check_duplicate, import_and_process_document
+
+        # Read file bytes
+        file_bytes = uploaded_file.read()
+        uploaded_file.seek(0)  # Reset file pointer
+
+        # Check for duplicates
+        docs_dir = Path("docs")
+        is_duplicate, matching_file = check_duplicate(file_bytes, docs_dir)
+
+        if is_duplicate:
+            st.warning(f"Duplicate detected: '{uploaded_file.name}' matches '{matching_file}'")
+            st.caption("This document is already in your knowledge base.")
+        else:
+            if st.button("Process Document", type="primary"):
+                with st.spinner("Processing document..."):
+                    result = import_and_process_document(file_bytes, uploaded_file.name, docs_dir)
+
+                if result["success"]:
+                    st.success(result["message"])
+                    st.balloons()
+                    st.rerun()
+                else:
+                    st.error(result["message"])
+
+    st.divider()
+
     # Instructions
     st.header("How to Use")
     st.markdown("""
