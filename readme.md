@@ -1,3 +1,8 @@
+# TO DO 
+- Make sure this handles when multiple people are trying to use this
+- How are multiple conversations stored and how does that work?
+
+
 # OpenAI RAG Q&A System
 
 A document question-answering system using RAG (Retrieval Augmented Generation) with ChromaDB vector storage and OpenAI embeddings. Includes a Flask API server for integration with VR applications.
@@ -122,38 +127,6 @@ python chroma_vector_store.py test_questions1.txt
 
 Results are saved to `chroma_query_results.csv`.
 
-### Option 2: Flask API Server
-
-Start the API server:
-
-```bash
-python api_server.py
-```
-
-The server runs on `http://localhost:5000`
-
-**API Endpoints:**
-
-- `POST /query` - Submit a question
-  ```bash
-  curl -X POST http://localhost:5000/query \
-    -H "Content-Type: application/json" \
-    -d '{"question": "How do I operate the fume hood?"}'
-  ```
-
-  Response:
-  ```json
-  {
-    "answer": "The answer based on your documents...",
-    "latency": 1.234
-  }
-  ```
-
-- `GET /health` - Check server status
-  ```bash
-  curl http://localhost:5000/health
-  ```
-
 ### Option 3: Python Script Integration
 
 ```python
@@ -181,34 +154,3 @@ CHUNK_OVERLAP = 200        # Overlap between chunks
 EMBEDDING_MODEL = "text-embedding-3-large"  # OpenAI embedding model
 TOP_K = 5                                   # Number of results to retrieve
 ```
-
-## Troubleshooting
-
-**"Collection not found" error:**
-- Run `python Unstructured_data_pipeline.py` to create the vector store
-
-**"No documents found" error:**
-- Ensure documents are in the `docs/` folder
-- Check that documents are in supported formats
-
-**Slow processing:**
-- Reduce `CHUNK_SIZE` to create fewer chunks
-- Process documents in smaller batches
-
-**API key issues:**
-- Verify `.env` file exists with `OPENAI_API_KEY=your_key`
-- Check that the key is valid at https://platform.openai.com/api-keys
-
-## Security Notes
-
-- **Never commit `.env` file** - contains your API key
-- **Never commit `docs/` folder** - may contain proprietary documents
-- Use `.gitignore` to exclude sensitive files
-- API keys and documents should remain offline
-
-## File Overview
-
-- `Unstructured_data_pipeline.py` - Document processing pipeline
-- `chroma_vector_store.py` - Vector store operations and queries
-- `api_server.py` - Flask REST API server
-- `rag_eval.py` - RAG evaluation metrics (optional)
